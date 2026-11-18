@@ -1,0 +1,966 @@
+{
+ "clients": [
+  {
+   "id": "northwind",
+   "name": "Northwind Outfitters (fictional)",
+   "am": "Account Manager A",
+   "monthly_hours": 60,
+   "channels": [
+    "search",
+    "social",
+    "email"
+   ]
+  },
+  {
+   "id": "brightleaf",
+   "name": "Brightleaf Dental (fictional)",
+   "am": "Account Manager B",
+   "monthly_hours": 40,
+   "channels": [
+    "search",
+    "social"
+   ]
+  },
+  {
+   "id": "harborline",
+   "name": "Harborline Logistics (fictional)",
+   "am": "Account Manager A",
+   "monthly_hours": 30,
+   "channels": [
+    "search",
+    "email"
+   ]
+  }
+ ],
+ "people": {
+  "Strategist 1": 120,
+  "Designer 1": 100,
+  "Analyst 1": 110,
+  "Coordinator 1": 120
+ },
+ "metrics": [
+  {
+   "client": "northwind",
+   "week_start": "2025-01-20",
+   "channel": "search",
+   "spend": 2569.71,
+   "impressions": 60813,
+   "clicks": 2097,
+   "conversions": 80,
+   "revenue": 6046.52
+  },
+  {
+   "client": "northwind",
+   "week_start": "2025-01-27",
+   "channel": "search",
+   "spend": 2301.25,
+   "impressions": 47400,
+   "clicks": 1185,
+   "conversions": 57,
+   "revenue": 4951.98
+  },
+  {
+   "client": "northwind",
+   "week_start": "2025-02-03",
+   "channel": "search",
+   "spend": 2264.9,
+   "impressions": 35112,
+   "clicks": 1596,
+   "conversions": 77,
+   "revenue": 7118.63
+  },
+  {
+   "client": "northwind",
+   "week_start": "2025-02-10",
+   "channel": "search",
+   "spend": 2608.01,
+   "impressions": 49356,
+   "clicks": 1371,
+   "conversions": 65,
+   "revenue": 6082.09
+  },
+  {
+   "client": "northwind",
+   "week_start": "2025-02-17",
+   "channel": "search",
+   "spend": 2654.72,
+   "impressions": 77000,
+   "clicks": 2200,
+   "conversions": 138,
+   "revenue": 11538.18
+  },
+  {
+   "client": "northwind",
+   "week_start": "2025-02-24",
+   "channel": "search",
+   "spend": 2327.74,
+   "impressions": 25896,
+   "clicks": 1079,
+   "conversions": 51,
+   "revenue": 4345.05
+  },
+  {
+   "client": "northwind",
+   "week_start": "2025-03-03",
+   "channel": "search",
+   "spend": 2429.49,
+   "impressions": 36179,
+   "clicks": 1573,
+   "conversions": 73,
+   "revenue": 7240.82
+  },
+  {
+   "client": "northwind",
+   "week_start": "2025-03-10",
+   "channel": "search",
+   "spend": 2518.11,
+   "impressions": 45162,
+   "clicks": 1158,
+   "conversions": 61,
+   "revenue": 4985.36
+  },
+  {
+   "client": "northwind",
+   "week_start": "2025-01-20",
+   "channel": "social",
+   "spend": 1846.31,
+   "impressions": 24780,
+   "clicks": 885,
+   "conversions": 36,
+   "revenue": 3534.58
+  },
+  {
+   "client": "northwind",
+   "week_start": "2025-01-27",
+   "channel": "social",
+   "spend": 1636.5,
+   "impressions": 27504,
+   "clicks": 1146,
+   "conversions": 46,
+   "revenue": 4793.78
+  },
+  {
+   "client": "northwind",
+   "week_start": "2025-02-03",
+   "channel": "social",
+   "spend": 1931.93,
+   "impressions": 40326,
+   "clicks": 1222,
+   "conversions": 57,
+   "revenue": 4360.85
+  },
+  {
+   "client": "northwind",
+   "week_start": "2025-02-10",
+   "channel": "social",
+   "spend": 1747.9,
+   "impressions": 22416,
+   "clicks": 934,
+   "conversions": 53,
+   "revenue": 5001.36
+  },
+  {
+   "client": "northwind",
+   "week_start": "2025-02-17",
+   "channel": "social",
+   "spend": 1681.61,
+   "impressions": 29614,
+   "clicks": 871,
+   "conversions": 35,
+   "revenue": 2827.93
+  },
+  {
+   "client": "northwind",
+   "week_start": "2025-02-24",
+   "channel": "social",
+   "spend": 1953.14,
+   "impressions": 33088,
+   "clicks": 1034,
+   "conversions": 45,
+   "revenue": 4667.13
+  },
+  {
+   "client": "northwind",
+   "week_start": "2025-03-03",
+   "channel": "social",
+   "spend": 1899.36,
+   "impressions": 42528,
+   "clicks": 1329,
+   "conversions": 51,
+   "revenue": 4388.38
+  },
+  {
+   "client": "northwind",
+   "week_start": "2025-03-10",
+   "channel": "social",
+   "spend": 1643.83,
+   "impressions": 24864,
+   "clicks": 777,
+   "conversions": 46,
+   "revenue": 3611.23
+  },
+  {
+   "client": "northwind",
+   "week_start": "2025-01-20",
+   "channel": "email",
+   "spend": 399.94,
+   "impressions": 4966,
+   "clicks": 191,
+   "conversions": 9,
+   "revenue": 725.36
+  },
+  {
+   "client": "northwind",
+   "week_start": "2025-01-27",
+   "channel": "email",
+   "spend": 379.73,
+   "impressions": 8600,
+   "clicks": 215,
+   "conversions": 8,
+   "revenue": 697.1
+  },
+  {
+   "client": "northwind",
+   "week_start": "2025-02-03",
+   "channel": "email",
+   "spend": 406.68,
+   "impressions": 6760,
+   "clicks": 260,
+   "conversions": 16,
+   "revenue": 1446.1
+  },
+  {
+   "client": "northwind",
+   "week_start": "2025-02-10",
+   "channel": "email",
+   "spend": 367.27,
+   "impressions": 7938,
+   "clicks": 294,
+   "conversions": 10,
+   "revenue": 1016.83
+  },
+  {
+   "client": "northwind",
+   "week_start": "2025-02-17",
+   "channel": "email",
+   "spend": 393.77,
+   "impressions": 11196,
+   "clicks": 311,
+   "conversions": 14,
+   "revenue": 1276.3
+  },
+  {
+   "client": "northwind",
+   "week_start": "2025-02-24",
+   "channel": "email",
+   "spend": 437.69,
+   "impressions": 5300,
+   "clicks": 212,
+   "conversions": 7,
+   "revenue": 680.88
+  },
+  {
+   "client": "northwind",
+   "week_start": "2025-03-03",
+   "channel": "email",
+   "spend": 402.96,
+   "impressions": 6850,
+   "clicks": 274,
+   "conversions": 16,
+   "revenue": 1307.84
+  },
+  {
+   "client": "northwind",
+   "week_start": "2025-03-10",
+   "channel": "email",
+   "spend": 372.65,
+   "impressions": 9270,
+   "clicks": 309,
+   "conversions": 20,
+   "revenue": 2177.51
+  },
+  {
+   "client": "brightleaf",
+   "week_start": "2025-01-20",
+   "channel": "search",
+   "spend": 2630.98,
+   "impressions": 47740,
+   "clicks": 1540,
+   "conversions": 51,
+   "revenue": 5287.01
+  },
+  {
+   "client": "brightleaf",
+   "week_start": "2025-01-27",
+   "channel": "search",
+   "spend": 2503.83,
+   "impressions": 48303,
+   "clicks": 1789,
+   "conversions": 70,
+   "revenue": 6410.26
+  },
+  {
+   "client": "brightleaf",
+   "week_start": "2025-02-03",
+   "channel": "search",
+   "spend": 2639.31,
+   "impressions": 48800,
+   "clicks": 1525,
+   "conversions": 41,
+   "revenue": 3671.31
+  },
+  {
+   "client": "brightleaf",
+   "week_start": "2025-02-10",
+   "channel": "search",
+   "spend": 2305.93,
+   "impressions": 45725,
+   "clicks": 1475,
+   "conversions": 74,
+   "revenue": 5888.78
+  },
+  {
+   "client": "brightleaf",
+   "week_start": "2025-02-17",
+   "channel": "search",
+   "spend": 2370.44,
+   "impressions": 49617,
+   "clicks": 1341,
+   "conversions": 34,
+   "revenue": 3489.79
+  },
+  {
+   "client": "brightleaf",
+   "week_start": "2025-02-24",
+   "channel": "search",
+   "spend": 2738.99,
+   "impressions": 58460,
+   "clicks": 1580,
+   "conversions": 40,
+   "revenue": 4314.96
+  },
+  {
+   "client": "brightleaf",
+   "week_start": "2025-03-03",
+   "channel": "search",
+   "spend": 2332.56,
+   "impressions": 37800,
+   "clicks": 1350,
+   "conversions": 45,
+   "revenue": 4822.04
+  },
+  {
+   "client": "brightleaf",
+   "week_start": "2025-03-10",
+   "channel": "search",
+   "spend": 2627.63,
+   "impressions": 47260,
+   "clicks": 1390,
+   "conversions": 46,
+   "revenue": 5051.07
+  },
+  {
+   "client": "brightleaf",
+   "week_start": "2025-01-20",
+   "channel": "social",
+   "spend": 1853.96,
+   "impressions": 28275,
+   "clicks": 1131,
+   "conversions": 51,
+   "revenue": 4075.73
+  },
+  {
+   "client": "brightleaf",
+   "week_start": "2025-01-27",
+   "channel": "social",
+   "spend": 1643.05,
+   "impressions": 53800,
+   "clicks": 1345,
+   "conversions": 59,
+   "revenue": 4649.71
+  },
+  {
+   "client": "brightleaf",
+   "week_start": "2025-02-03",
+   "channel": "social",
+   "spend": 1645.56,
+   "impressions": 20654,
+   "clicks": 898,
+   "conversions": 29,
+   "revenue": 3027.18
+  },
+  {
+   "client": "brightleaf",
+   "week_start": "2025-02-10",
+   "channel": "social",
+   "spend": 1645.51,
+   "impressions": 32032,
+   "clicks": 1144,
+   "conversions": 48,
+   "revenue": 4395.33
+  },
+  {
+   "client": "brightleaf",
+   "week_start": "2025-02-17",
+   "channel": "social",
+   "spend": 1880.41,
+   "impressions": 26187,
+   "clicks": 903,
+   "conversions": 34,
+   "revenue": 3447.08
+  },
+  {
+   "client": "brightleaf",
+   "week_start": "2025-02-24",
+   "channel": "social",
+   "spend": 1910.7,
+   "impressions": 48090,
+   "clicks": 1374,
+   "conversions": 33,
+   "revenue": 2777.67
+  },
+  {
+   "client": "brightleaf",
+   "week_start": "2025-03-03",
+   "channel": "social",
+   "spend": 1768.0,
+   "impressions": 21400,
+   "clicks": 856,
+   "conversions": 18,
+   "revenue": 1303.64
+  },
+  {
+   "client": "brightleaf",
+   "week_start": "2025-03-10",
+   "channel": "social",
+   "spend": 1882.16,
+   "impressions": 26320,
+   "clicks": 940,
+   "conversions": 20,
+   "revenue": 1552.17
+  },
+  {
+   "client": "harborline",
+   "week_start": "2025-01-20",
+   "channel": "search",
+   "spend": 2474.31,
+   "impressions": 44225,
+   "clicks": 1525,
+   "conversions": 58,
+   "revenue": 6088.81
+  },
+  {
+   "client": "harborline",
+   "week_start": "2025-01-27",
+   "channel": "search",
+   "spend": 2287.69,
+   "impressions": 28475,
+   "clicks": 1139,
+   "conversions": 63,
+   "revenue": 4537.48
+  },
+  {
+   "client": "harborline",
+   "week_start": "2025-02-03",
+   "channel": "search",
+   "spend": 2749.64,
+   "impressions": 39150,
+   "clicks": 1350,
+   "conversions": 79,
+   "revenue": 6055.54
+  },
+  {
+   "client": "harborline",
+   "week_start": "2025-02-10",
+   "channel": "search",
+   "spend": 2492.82,
+   "impressions": 40549,
+   "clicks": 1763,
+   "conversions": 74,
+   "revenue": 5667.33
+  },
+  {
+   "client": "harborline",
+   "week_start": "2025-02-17",
+   "channel": "search",
+   "spend": 2251.08,
+   "impressions": 50940,
+   "clicks": 1415,
+   "conversions": 81,
+   "revenue": 6594.21
+  },
+  {
+   "client": "harborline",
+   "week_start": "2025-02-24",
+   "channel": "search",
+   "spend": 2598.3,
+   "impressions": 49765,
+   "clicks": 1345,
+   "conversions": 71,
+   "revenue": 5409.62
+  },
+  {
+   "client": "harborline",
+   "week_start": "2025-03-03",
+   "channel": "search",
+   "spend": 2398.35,
+   "impressions": 43095,
+   "clicks": 1105,
+   "conversions": 52,
+   "revenue": 3766.79
+  },
+  {
+   "client": "harborline",
+   "week_start": "2025-03-10",
+   "channel": "search",
+   "spend": 2406.8,
+   "impressions": 73150,
+   "clicks": 1925,
+   "conversions": 85,
+   "revenue": 6485.27
+  },
+  {
+   "client": "harborline",
+   "week_start": "2025-01-20",
+   "channel": "email",
+   "spend": 436.86,
+   "impressions": 8184,
+   "clicks": 341,
+   "conversions": 12,
+   "revenue": 1164.1
+  },
+  {
+   "client": "harborline",
+   "week_start": "2025-01-27",
+   "channel": "email",
+   "spend": 378.82,
+   "impressions": 8323,
+   "clicks": 287,
+   "conversions": 16,
+   "revenue": 1490.51
+  },
+  {
+   "client": "harborline",
+   "week_start": "2025-02-03",
+   "channel": "email",
+   "spend": 363.18,
+   "impressions": 11320,
+   "clicks": 283,
+   "conversions": 14,
+   "revenue": 1272.76
+  },
+  {
+   "client": "harborline",
+   "week_start": "2025-02-10",
+   "channel": "email",
+   "spend": 434.78,
+   "impressions": 8961,
+   "clicks": 309,
+   "conversions": 15,
+   "revenue": 1209.37
+  },
+  {
+   "client": "harborline",
+   "week_start": "2025-02-17",
+   "channel": "email",
+   "spend": 370.47,
+   "impressions": 4800,
+   "clicks": 200,
+   "conversions": 8,
+   "revenue": 562.98
+  },
+  {
+   "client": "harborline",
+   "week_start": "2025-02-24",
+   "channel": "email",
+   "spend": 409.69,
+   "impressions": 9048,
+   "clicks": 232,
+   "conversions": 7,
+   "revenue": 549.68
+  },
+  {
+   "client": "harborline",
+   "week_start": "2025-03-03",
+   "channel": "email",
+   "spend": 381.22,
+   "impressions": 5162,
+   "clicks": 178,
+   "conversions": 10,
+   "revenue": 847.81
+  },
+  {
+   "client": "harborline",
+   "week_start": "2025-03-10",
+   "channel": "email",
+   "spend": 372.62,
+   "impressions": 6954,
+   "clicks": 183,
+   "conversions": 9,
+   "revenue": 632.82
+  }
+ ],
+ "time": [
+  {
+   "client": "northwind",
+   "person": "Analyst 1",
+   "date": "2025-03-13",
+   "hours": 4.55,
+   "task": "reporting"
+  },
+  {
+   "client": "northwind",
+   "person": "Designer 1",
+   "date": "2025-03-07",
+   "hours": 4.55,
+   "task": "reporting"
+  },
+  {
+   "client": "northwind",
+   "person": "Strategist 1",
+   "date": "2025-03-11",
+   "hours": 4.55,
+   "task": "creative"
+  },
+  {
+   "client": "northwind",
+   "person": "Analyst 1",
+   "date": "2025-03-07",
+   "hours": 4.55,
+   "task": "optimization"
+  },
+  {
+   "client": "northwind",
+   "person": "Designer 1",
+   "date": "2025-03-08",
+   "hours": 4.55,
+   "task": "creative"
+  },
+  {
+   "client": "northwind",
+   "person": "Analyst 1",
+   "date": "2025-03-11",
+   "hours": 4.55,
+   "task": "client call"
+  },
+  {
+   "client": "northwind",
+   "person": "Analyst 1",
+   "date": "2025-03-03",
+   "hours": 4.55,
+   "task": "reporting"
+  },
+  {
+   "client": "northwind",
+   "person": "Coordinator 1",
+   "date": "2025-03-07",
+   "hours": 4.55,
+   "task": "reporting"
+  },
+  {
+   "client": "northwind",
+   "person": "Strategist 1",
+   "date": "2025-03-08",
+   "hours": 4.55,
+   "task": "creative"
+  },
+  {
+   "client": "northwind",
+   "person": "Analyst 1",
+   "date": "2025-03-05",
+   "hours": 4.55,
+   "task": "client call"
+  },
+  {
+   "client": "northwind",
+   "person": "Coordinator 1",
+   "date": "2025-03-11",
+   "hours": 4.55,
+   "task": "reporting"
+  },
+  {
+   "client": "northwind",
+   "person": "Strategist 1",
+   "date": "2025-03-04",
+   "hours": 4.55,
+   "task": "creative"
+  },
+  {
+   "client": "northwind",
+   "person": "Strategist 1",
+   "date": "2025-03-08",
+   "hours": 4.55,
+   "task": "optimization"
+  },
+  {
+   "client": "northwind",
+   "person": "Designer 1",
+   "date": "2025-03-09",
+   "hours": 4.55,
+   "task": "creative"
+  },
+  {
+   "client": "brightleaf",
+   "person": "Strategist 1",
+   "date": "2025-03-07",
+   "hours": 1.7,
+   "task": "campaign setup"
+  },
+  {
+   "client": "brightleaf",
+   "person": "Strategist 1",
+   "date": "2025-03-08",
+   "hours": 1.7,
+   "task": "creative"
+  },
+  {
+   "client": "brightleaf",
+   "person": "Designer 1",
+   "date": "2025-03-13",
+   "hours": 1.7,
+   "task": "reporting"
+  },
+  {
+   "client": "brightleaf",
+   "person": "Analyst 1",
+   "date": "2025-03-11",
+   "hours": 1.7,
+   "task": "client call"
+  },
+  {
+   "client": "brightleaf",
+   "person": "Designer 1",
+   "date": "2025-03-06",
+   "hours": 1.7,
+   "task": "creative"
+  },
+  {
+   "client": "brightleaf",
+   "person": "Designer 1",
+   "date": "2025-03-09",
+   "hours": 1.7,
+   "task": "reporting"
+  },
+  {
+   "client": "brightleaf",
+   "person": "Designer 1",
+   "date": "2025-03-08",
+   "hours": 1.7,
+   "task": "client call"
+  },
+  {
+   "client": "brightleaf",
+   "person": "Designer 1",
+   "date": "2025-03-07",
+   "hours": 1.7,
+   "task": "creative"
+  },
+  {
+   "client": "brightleaf",
+   "person": "Strategist 1",
+   "date": "2025-03-09",
+   "hours": 1.7,
+   "task": "reporting"
+  },
+  {
+   "client": "brightleaf",
+   "person": "Coordinator 1",
+   "date": "2025-03-06",
+   "hours": 1.7,
+   "task": "creative"
+  },
+  {
+   "client": "brightleaf",
+   "person": "Coordinator 1",
+   "date": "2025-03-08",
+   "hours": 1.7,
+   "task": "campaign setup"
+  },
+  {
+   "client": "brightleaf",
+   "person": "Designer 1",
+   "date": "2025-03-06",
+   "hours": 1.7,
+   "task": "reporting"
+  },
+  {
+   "client": "brightleaf",
+   "person": "Designer 1",
+   "date": "2025-03-09",
+   "hours": 1.7,
+   "task": "campaign setup"
+  },
+  {
+   "client": "brightleaf",
+   "person": "Analyst 1",
+   "date": "2025-03-04",
+   "hours": 1.7,
+   "task": "campaign setup"
+  },
+  {
+   "client": "harborline",
+   "person": "Analyst 1",
+   "date": "2025-03-13",
+   "hours": 1.82,
+   "task": "optimization"
+  },
+  {
+   "client": "harborline",
+   "person": "Coordinator 1",
+   "date": "2025-03-13",
+   "hours": 1.82,
+   "task": "optimization"
+  },
+  {
+   "client": "harborline",
+   "person": "Analyst 1",
+   "date": "2025-03-03",
+   "hours": 1.82,
+   "task": "reporting"
+  },
+  {
+   "client": "harborline",
+   "person": "Analyst 1",
+   "date": "2025-03-05",
+   "hours": 1.82,
+   "task": "optimization"
+  },
+  {
+   "client": "harborline",
+   "person": "Analyst 1",
+   "date": "2025-03-03",
+   "hours": 1.82,
+   "task": "reporting"
+  },
+  {
+   "client": "harborline",
+   "person": "Coordinator 1",
+   "date": "2025-03-08",
+   "hours": 1.82,
+   "task": "campaign setup"
+  },
+  {
+   "client": "harborline",
+   "person": "Coordinator 1",
+   "date": "2025-03-12",
+   "hours": 1.82,
+   "task": "optimization"
+  },
+  {
+   "client": "harborline",
+   "person": "Strategist 1",
+   "date": "2025-03-09",
+   "hours": 1.82,
+   "task": "optimization"
+  },
+  {
+   "client": "harborline",
+   "person": "Designer 1",
+   "date": "2025-03-07",
+   "hours": 1.82,
+   "task": "reporting"
+  },
+  {
+   "client": "harborline",
+   "person": "Coordinator 1",
+   "date": "2025-03-03",
+   "hours": 1.82,
+   "task": "optimization"
+  },
+  {
+   "client": "harborline",
+   "person": "Designer 1",
+   "date": "2025-03-08",
+   "hours": 1.82,
+   "task": "client call"
+  },
+  {
+   "client": "harborline",
+   "person": "Strategist 1",
+   "date": "2025-03-13",
+   "hours": 1.82,
+   "task": "campaign setup"
+  },
+  {
+   "client": "harborline",
+   "person": "Analyst 1",
+   "date": "2025-03-13",
+   "hours": 1.82,
+   "task": "reporting"
+  },
+  {
+   "client": "harborline",
+   "person": "Analyst 1",
+   "date": "2025-03-11",
+   "hours": 1.82,
+   "task": "campaign setup"
+  }
+ ],
+ "deadlines": [
+  {
+   "client": "northwind",
+   "campaign": "Spring Launch",
+   "name": "Creative approval",
+   "due": "2025-03-12",
+   "status": "waiting_client",
+   "owner": "Designer 1"
+  },
+  {
+   "client": "northwind",
+   "campaign": "Spring Launch",
+   "name": "Landing page QA",
+   "due": "2025-03-17",
+   "status": "in_progress",
+   "owner": "Coordinator 1"
+  },
+  {
+   "client": "northwind",
+   "campaign": "Spring Launch",
+   "name": "Go live",
+   "due": "2025-03-20",
+   "status": "not_started",
+   "owner": "Strategist 1"
+  },
+  {
+   "client": "brightleaf",
+   "campaign": "New Patient Search",
+   "name": "Keyword refresh",
+   "due": "2025-03-14",
+   "status": "in_progress",
+   "owner": "Analyst 1"
+  },
+  {
+   "client": "brightleaf",
+   "campaign": "New Patient Search",
+   "name": "Monthly report",
+   "due": "2025-03-31",
+   "status": "not_started",
+   "owner": "Analyst 1"
+  },
+  {
+   "client": "harborline",
+   "campaign": "Q1 Nurture",
+   "name": "Email sequence draft",
+   "due": "2025-03-10",
+   "status": "in_progress",
+   "owner": "Strategist 1"
+  },
+  {
+   "client": "harborline",
+   "campaign": "Q1 Nurture",
+   "name": "Send schedule locked",
+   "due": "2025-03-28",
+   "status": "not_started",
+   "owner": "Coordinator 1"
+  },
+  {
+   "client": "harborline",
+   "campaign": "Q1 Nurture",
+   "name": "Prior phase wrap",
+   "due": "2025-03-05",
+   "status": "done",
+   "owner": "Coordinator 1"
+  }
+ ],
+ "as_of": "2025-03-14"
+}
